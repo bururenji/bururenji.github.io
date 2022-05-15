@@ -1,0 +1,49 @@
+.container {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.web-shortcut {
+    height: 50px;
+    background-color: #333;
+}
+
+.web-shortcut .container {
+    height: 100%;
+}
+
+.web-shortcut ul li {
+    float: left;
+    line-height: 50px;
+    color: #666;
+}
+
+.web-shortcut ul li a {
+    margin: 0 16px;
+    color: #dcdcdc;
+}
+
+.web-shortcut ul li:last-child a {
+    margin-right: 0;
+}
+
+.web-shortcut li:nth-child(1) a::before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    margin-right: 8px;
+    background: url("../images/base/sprites.png") 0px 0px;
+}
+
+.web-shortcut li:nth-child(2) a::before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    margin-right: 8px;
+    background: url("../images/base/sprites.png") -16px 0px;
+    background-size: 1600% 1600%;
+}
