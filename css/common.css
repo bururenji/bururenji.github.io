@@ -34,7 +34,7 @@
     height: 32px;
     vertical-align: middle;
     margin-right: 8px;
-    background: url("../images/base/sprites.png") 0px 0px;
+    background: url("../images/sprites.png") 0px 0px;
 }
 
 .web-shortcut li:nth-child(2) a::before {
@@ -44,6 +44,6 @@
     height: 32px;
     vertical-align: middle;
     margin-right: 8px;
-    background: url("../images/base/sprites.png") -16px 0px;
+    background: url("../images/sprites.png") -16px 0px;
     background-size: 1600% 1600%;
 }
