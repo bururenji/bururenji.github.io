@@ -1,0 +1,290 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<title>《原神》伤害计算公式 | KuRo小黑 - 个人博客</title>
+
+<link rel="shortcut icon" href="https://bururenji.github.io//favicon.ico?v=1682260018786">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://bururenji.github.io//styles/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            KuRo小黑 - 个人博客
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+                <div class="nav-item">
+                    
+                        <a href="/" class="menu gt-a-link">
+                            首页
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/archives" class="menu gt-a-link">
+                            归档
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/tags" class="menu gt-a-link">
+                            标签
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/post/about" class="menu gt-a-link">
+                            关于
+                        </a>
+                    
+                </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1682260018786" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    《原神》伤害计算公式
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2023年01月11日 18:21:24 ·
+                    </time>
+                    
+                        <a href="https://bururenji.github.io/tag/Cs50DMB0o/" class="post-tags">
+                            # 原创
+                        </a>
+                    
+                        <a href="https://bururenji.github.io/tag/Ca7S5w1EJ/" class="post-tags">
+                            # 原神
+                        </a>
+                    
+                        <a href="https://bururenji.github.io/tag/c0-g4-YdlW/" class="post-tags">
+                            # Genshin Impact
+                        </a>
+                    
+                        <a href="https://bururenji.github.io/tag/Qron8eYF6c/" class="post-tags">
+                            # 探究
+                        </a>
+                    
+                </div>
+                <div class="post-content">
+                    <p>这是一篇《原神》伤害计算公式的整理文档，参考了许多数据，只为整理其内容，使之能更好地被我所理解。</p>
+<p>最新更新于2023/1/20-15:56</p>
+<!--  more  -->
+<h1 id="声明">声明</h1>
+<p>本篇文章参考以下专栏和视频：</p>
+<ul>
+<li><strong>哔哩哔哩专栏：<a href="https://www.bilibili.com/read/cv18320243/">原神伤害期望计算公式（包含草元素新体系） - Traumere</a></strong></li>
+<li><strong>哔哩哔哩视频：<a href="https://www.bilibili.com/video/BV1hU4y1d782/">《原学》必修三：伤害乘区与实用工具 - 阿牛不能吃</a></strong></li>
+</ul>
+<hr>
+<h1 id="乘区">乘区</h1>
+<p>《原神》中的伤害是通过一系列较为复杂的公式计算产生的。现在的人一般把这个公式分为七个乘区：面板区、倍率区、增伤区、抗性区、防御区、双暴区、元素反应区。他们的计算公式如下：</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">角</mi><mi mathvariant="normal">色</mi><mi mathvariant="normal">伤</mi><mi mathvariant="normal">害</mi><mo>=</mo><mi mathvariant="normal">面</mi><mi mathvariant="normal">板</mi><mi mathvariant="normal">区</mi><mo>×</mo><mi mathvariant="normal">倍</mi><mi mathvariant="normal">率</mi><mi mathvariant="normal">区</mi><mo>×</mo><mi mathvariant="normal">增</mi><mi mathvariant="normal">伤</mi><mi mathvariant="normal">区</mi><mo>×</mo><mi mathvariant="normal">抗</mi><mi mathvariant="normal">性</mi><mi mathvariant="normal">区</mi><mo>×</mo><mi mathvariant="normal">防</mi><mi mathvariant="normal">御</mi><mi mathvariant="normal">区</mi><mo>×</mo><mi mathvariant="normal">双</mi><mi mathvariant="normal">暴</mi><mi mathvariant="normal">区</mi><mo>×</mo><mi mathvariant="normal">元</mi><mi mathvariant="normal">素</mi><mi mathvariant="normal">反</mi><mi mathvariant="normal">应</mi><mi mathvariant="normal">区</mi></mrow><annotation encoding="application/x-tex">角色伤害 = 面板区 \times 倍率区 \times 增伤区 \times 抗性区 \times 防御区 \times 双暴区 \times 元素反应区
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mord cjk_fallback">角</span><span class="mord cjk_fallback">色</span><span class="mord cjk_fallback">伤</span><span class="mord cjk_fallback">害</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord cjk_fallback">面</span><span class="mord cjk_fallback">板</span><span class="mord cjk_fallback">区</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord cjk_fallback">倍</span><span class="mord cjk_fallback">率</span><span class="mord cjk_fallback">区</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord cjk_fallback">增</span><span class="mord cjk_fallback">伤</span><span class="mord cjk_fallback">区</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord cjk_fallback">抗</span><span class="mord cjk_fallback">性</span><span class="mord cjk_fallback">区</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord cjk_fallback">防</span><span class="mord cjk_fallback">御</span><span class="mord cjk_fallback">区</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord cjk_fallback">双</span><span class="mord cjk_fallback">暴</span><span class="mord cjk_fallback">区</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0em;vertical-align:0em;"></span><span class="mord cjk_fallback">元</span><span class="mord cjk_fallback">素</span><span class="mord cjk_fallback">反</span><span class="mord cjk_fallback">应</span><span class="mord cjk_fallback">区</span></span></span></span></span></p>
+<p>因此，若要计算原神中角色的伤害，只需要知道在打出伤害的时这七大乘区的值即可。</p>
+<h2 id="面板区">面板区</h2>
+<p>简单来说，面板区即角色<strong>生命值上限</strong>、<strong>攻击力</strong>、<strong>防御力</strong>。</p>
+<p>一般来说角色的伤害主要是攻击力在起作用。但是在部分情况下，部分角色的伤害主要是与其生命值或防御力挂钩的。具体例子如下：</p>
+<ul>
+<li>
+<p><strong>胡桃</strong>在释放元素战技<strong>蝶引来生</strong>时，会将自身生命值上限按照一定比例转换成其攻击力。</p>
+<p>在其元素战技等级为1级的情况下，释放元素战技时攻击力的值遵循以下公式：</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">释</mi><mi mathvariant="normal">放</mi><mi mathvariant="normal">元</mi><mi mathvariant="normal">素</mi><mi mathvariant="normal">战</mi><mi mathvariant="normal">技</mi><mi mathvariant="normal">时</mi><mi mathvariant="normal">的</mi><mi mathvariant="normal">攻</mi><mi mathvariant="normal">击</mi><mi mathvariant="normal">力</mi><mo>=</mo><mi mathvariant="normal">未</mi><mi mathvariant="normal">释</mi><mi mathvariant="normal">放</mi><mi mathvariant="normal">元</mi><mi mathvariant="normal">素</mi><mi mathvariant="normal">战</mi><mi mathvariant="normal">技</mi><mi mathvariant="normal">时</mi><mi mathvariant="normal">的</mi><mi mathvariant="normal">攻</mi><mi mathvariant="normal">击</mi><mi mathvariant="normal">力</mi><mo>+</mo><mn>3.84</mn><mi mathvariant="normal">%</mi><mo>×</mo><mi mathvariant="normal">生</mi><mi mathvariant="normal">命</mi><mi mathvariant="normal">值</mi><mi mathvariant="normal">上</mi><mi mathvariant="normal">限</mi></mrow><annotation encoding="application/x-tex">释放元素战技时的攻击力 = 未释放元素战技时的攻击力 + 3.84\%  \times 生命值上限
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mord cjk_fallback">释</span><span class="mord cjk_fallback">放</span><span class="mord cjk_fallback">元</span><span class="mord cjk_fallback">素</span><span class="mord cjk_fallback">战</span><span class="mord cjk_fallback">技</span><span class="mord cjk_fallback">时</span><span class="mord cjk_fallback">的</span><span class="mord cjk_fallback">攻</span><span class="mord cjk_fallback">击</span><span class="mord cjk_fallback">力</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord cjk_fallback">未</span><span class="mord cjk_fallback">释</span><span class="mord cjk_fallback">放</span><span class="mord cjk_fallback">元</span><span class="mord cjk_fallback">素</span><span class="mord cjk_fallback">战</span><span class="mord cjk_fallback">技</span><span class="mord cjk_fallback">时</span><span class="mord cjk_fallback">的</span><span class="mord cjk_fallback">攻</span><span class="mord cjk_fallback">击</span><span class="mord cjk_fallback">力</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.08333em;"></span><span class="mord">3</span><span class="mord">.</span><span class="mord">8</span><span class="mord">4</span><span class="mord">%</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0em;vertical-align:0em;"></span><span class="mord cjk_fallback">生</span><span class="mord cjk_fallback">命</span><span class="mord cjk_fallback">值</span><span class="mord cjk_fallback">上</span><span class="mord cjk_fallback">限</span></span></span></span></span></p>
+</li>
+<li>
+<p><strong>荒泷一斗</strong>在释放元素爆发**罪恶鬼王·一斗轰临！！**时，会将自身防御力按照一定比例转换成其攻击力。</p>
+<p>在其元素战技等级为1级的情况下，释放元素战技时攻击力的值遵循以下公式：</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">释</mi><mi mathvariant="normal">放</mi><mi mathvariant="normal">元</mi><mi mathvariant="normal">素</mi><mi mathvariant="normal">爆</mi><mi mathvariant="normal">发</mi><mi mathvariant="normal">时</mi><mi mathvariant="normal">的</mi><mi mathvariant="normal">攻</mi><mi mathvariant="normal">击</mi><mi mathvariant="normal">力</mi><mo>=</mo><mi mathvariant="normal">未</mi><mi mathvariant="normal">释</mi><mi mathvariant="normal">放</mi><mi mathvariant="normal">元</mi><mi mathvariant="normal">素</mi><mi mathvariant="normal">爆</mi><mi mathvariant="normal">发</mi><mi mathvariant="normal">时</mi><mi mathvariant="normal">的</mi><mi mathvariant="normal">攻</mi><mi mathvariant="normal">击</mi><mi mathvariant="normal">力</mi><mo>+</mo><mn>57.6</mn><mi mathvariant="normal">%</mi><mo>×</mo><mi mathvariant="normal">防</mi><mi mathvariant="normal">御</mi><mi mathvariant="normal">力</mi></mrow><annotation encoding="application/x-tex">释放元素爆发时的攻击力 = 未释放元素爆发时的攻击力 + 57.6\%  \times 防御力
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mord cjk_fallback">释</span><span class="mord cjk_fallback">放</span><span class="mord cjk_fallback">元</span><span class="mord cjk_fallback">素</span><span class="mord cjk_fallback">爆</span><span class="mord cjk_fallback">发</span><span class="mord cjk_fallback">时</span><span class="mord cjk_fallback">的</span><span class="mord cjk_fallback">攻</span><span class="mord cjk_fallback">击</span><span class="mord cjk_fallback">力</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord cjk_fallback">未</span><span class="mord cjk_fallback">释</span><span class="mord cjk_fallback">放</span><span class="mord cjk_fallback">元</span><span class="mord cjk_fallback">素</span><span class="mord cjk_fallback">爆</span><span class="mord cjk_fallback">发</span><span class="mord cjk_fallback">时</span><span class="mord cjk_fallback">的</span><span class="mord cjk_fallback">攻</span><span class="mord cjk_fallback">击</span><span class="mord cjk_fallback">力</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.08333em;"></span><span class="mord">5</span><span class="mord">7</span><span class="mord">.</span><span class="mord">6</span><span class="mord">%</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0em;vertical-align:0em;"></span><span class="mord cjk_fallback">防</span><span class="mord cjk_fallback">御</span><span class="mord cjk_fallback">力</span></span></span></span></span></p>
+</li>
+</ul>
+<p>因此，在计算面板区数值时要具体情况具体分析，不能任意选择一个数值进行计算。</p>
+<p>另外，面板区的数值有两种表现形式：<strong>白值</strong>和<strong>绿值</strong>。目前，提升这些数值的方法如下（实力有限，无法列表完全）：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">提升属性</th>
+<th style="text-align:center">主要提升方法</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">生命值上限（白）</td>
+<td style="text-align:center">角色升级</td>
+</tr>
+<tr>
+<td style="text-align:center">攻击力（白）</td>
+<td style="text-align:center">角色升级、武器主词条</td>
+</tr>
+<tr>
+<td style="text-align:center">防御力（白）</td>
+<td style="text-align:center">角色升级</td>
+</tr>
+<tr>
+<td style="text-align:center">生命值上限（绿）</td>
+<td style="text-align:center">圣遗物主副词条、武器副词条等</td>
+</tr>
+<tr>
+<td style="text-align:center">攻击力（绿）</td>
+<td style="text-align:center">圣遗物主副词条、武器副词条等</td>
+</tr>
+<tr>
+<td style="text-align:center">防御力（绿）</td>
+<td style="text-align:center">圣遗物主副词条、武器副词条等</td>
+</tr>
+</tbody>
+</table>
+<h2 id="倍率区">倍率区</h2>
+<p>所有角色产生的伤害均有倍率。</p>
+<p>若需查看详细倍率，需在角色<strong>有伤害</strong>的天赋页面中，<strong>普通攻击</strong>、<strong>元素战技</strong>、<strong>元素爆发</strong>的<strong>详细属性</strong>页内查看。具体例子如下：</p>
+<ul>
+<li>
+<p><strong>雷电将军</strong>的普通攻击<strong>普通攻击·源流</strong>在执行普通攻击时会进行至多五段的连续枪击。</p>
+<p>在其普通攻击等级为1级的情况下，执行普通攻击时的倍率分别为：39.6%、39.7%、49.9%、29.0% + 29.0%、65.4%。</p>
+</li>
+</ul>
+<p>一般是与攻击力的乘算。部分角色的部分天赋是与<strong>生命值上限</strong>、<strong>防御力</strong>等有关。具体例子如下：</p>
+<ul>
+<li>
+<p><strong>阿贝多</strong>的元素战技<strong>创生法·拟造阳华</strong>释放后，在阳华范围内，敌对生物受到伤害时会生成刹那之花，绽放造成岩元素范围伤害，伤害基于阿贝多的防御力。</p>
+<p>在其元素战技等级为1级的情况下，生成刹那之花时的倍率为：133.60%防御力。</p>
+</li>
+</ul>
+<p>部分角色的<strong>部分天赋</strong>、<strong>命之座</strong>等可以影响部分角色的天赋倍率。具体例子如下：</p>
+<ul>
+<li>
+<p><strong>宵宫</strong>的元素战技<strong>焰硝庭火舞</strong>，可以将普通攻击“附魔”火元素，并提高普通攻击伤害。</p>
+<p>在其元素战技等级为1级的情况下，炽焰箭伤害为：137.9%普通攻击伤害。</p>
+<p>其与普通攻击的伤害是乘算关系，其计算公式如下：</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">炽</mi><mi mathvariant="normal">焰</mi><mi mathvariant="normal">箭</mi><mi mathvariant="normal">伤</mi><mi mathvariant="normal">害</mi><mo>=</mo><mi mathvariant="normal">角</mi><mi mathvariant="normal">色</mi><mi mathvariant="normal">面</mi><mi mathvariant="normal">板</mi><mo>×</mo><mi mathvariant="normal">技</mi><mi mathvariant="normal">能</mi><mi mathvariant="normal">倍</mi><mi mathvariant="normal">率</mi><mo>×</mo><mi mathvariant="normal">加</mi><mi mathvariant="normal">成</mi><mi mathvariant="normal">百</mi><mi mathvariant="normal">分</mi><mi mathvariant="normal">比</mi></mrow><annotation encoding="application/x-tex">炽焰箭伤害 = 角色面板 \times 技能倍率 \times 加成百分比
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mord cjk_fallback">炽</span><span class="mord cjk_fallback">焰</span><span class="mord cjk_fallback">箭</span><span class="mord cjk_fallback">伤</span><span class="mord cjk_fallback">害</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord cjk_fallback">角</span><span class="mord cjk_fallback">色</span><span class="mord cjk_fallback">面</span><span class="mord cjk_fallback">板</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord cjk_fallback">技</span><span class="mord cjk_fallback">能</span><span class="mord cjk_fallback">倍</span><span class="mord cjk_fallback">率</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0em;vertical-align:0em;"></span><span class="mord cjk_fallback">加</span><span class="mord cjk_fallback">成</span><span class="mord cjk_fallback">百</span><span class="mord cjk_fallback">分</span><span class="mord cjk_fallback">比</span></span></span></span></span></p>
+<p>90级宵宫装备猎弓，未佩戴圣遗物，普通攻击及元素战技等级为1级，未暴击，未触发元素反应，未有元素共鸣等的情况下，此时宵宫的攻击力为：323，猎弓的攻击力为：185，普通攻击第二段伤害的倍率为：68.4%，炽焰箭伤害为：137.9%普通攻击伤害，其伤害计算公式如下：</p>
+</li>
+</ul>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">炽</mi><mi mathvariant="normal">焰</mi><mi mathvariant="normal">箭</mi><mi mathvariant="normal">第</mi><mi mathvariant="normal">二</mi><mi mathvariant="normal">箭</mi><mi mathvariant="normal">伤</mi><mi mathvariant="normal">害</mi><mo>=</mo><mrow><mo fence="true">(</mo><mrow><mover><mo><mn>323</mn></mo><mrow><mi mathvariant="normal">宵</mi><mi mathvariant="normal">宫</mi><mi mathvariant="normal">的</mi><mi mathvariant="normal">攻</mi><mi mathvariant="normal">击</mi><mi mathvariant="normal">力</mi></mrow></mover><mo>+</mo><mover><mo><mn>185</mn></mo><mrow><mi mathvariant="normal">猎</mi><mi mathvariant="normal">弓</mi><mi mathvariant="normal">的</mi><mi mathvariant="normal">攻</mi><mi mathvariant="normal">击</mi><mi mathvariant="normal">力</mi></mrow></mover></mrow><mo fence="true">)</mo></mrow><mo>×</mo><mn>68.4</mn><mi mathvariant="normal">%</mi><mo>×</mo><mn>137.9</mn><mi mathvariant="normal">%</mi><mo>=</mo><mn>479.163888</mn></mrow><annotation encoding="application/x-tex">炽焰箭第二箭伤害 = \left( {\mathop {323}\limits^{宵宫的攻击力} + \mathop {185}\limits^{猎弓的攻击力} } \right) \times 68.4\% \times 137.9\% = 479.163888
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mord cjk_fallback">炽</span><span class="mord cjk_fallback">焰</span><span class="mord cjk_fallback">箭</span><span class="mord cjk_fallback">第</span><span class="mord cjk_fallback">二</span><span class="mord cjk_fallback">箭</span><span class="mord cjk_fallback">伤</span><span class="mord cjk_fallback">害</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.80002em;vertical-align:-0.65002em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size2">(</span></span><span class="mord"><span class="mop op-limits"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9444400000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span><span class="mop"><span class="mord">323</span></span></span></span><span style="top:-3.84444em;margin-left:0em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord cjk_fallback mtight">宵</span><span class="mord cjk_fallback mtight">宫</span><span class="mord cjk_fallback mtight">的</span><span class="mord cjk_fallback mtight">攻</span><span class="mord cjk_fallback mtight">击</span><span class="mord cjk_fallback mtight">力</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">+</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mop op-limits"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9444400000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span><span class="mop"><span class="mord">185</span></span></span></span><span style="top:-3.84444em;margin-left:0em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord cjk_fallback mtight">猎</span><span class="mord cjk_fallback mtight">弓</span><span class="mord cjk_fallback mtight">的</span><span class="mord cjk_fallback mtight">攻</span><span class="mord cjk_fallback mtight">击</span><span class="mord cjk_fallback mtight">力</span></span></span></span></span></span></span></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size2">)</span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.08333em;"></span><span class="mord">6</span><span class="mord">8</span><span class="mord">.</span><span class="mord">4</span><span class="mord">%</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.80556em;vertical-align:-0.05556em;"></span><span class="mord">1</span><span class="mord">3</span><span class="mord">7</span><span class="mord">.</span><span class="mord">9</span><span class="mord">%</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">4</span><span class="mord">7</span><span class="mord">9</span><span class="mord">.</span><span class="mord">1</span><span class="mord">6</span><span class="mord">3</span><span class="mord">8</span><span class="mord">8</span><span class="mord">8</span></span></span></span></span></p>
+<ul>
+<li>
+<p><strong>云堇</strong>的元素爆发<strong>破嶂见旌仪</strong>，可以根据云堇自身防御力提升普通攻击伤害。</p>
+<p>在其元素爆发等级为1级的情况下，伤害值提升为：23.16%防御力。</p>
+<p>其与普通攻击的伤害是加算关系，其计算公式如下：</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">伤</mi><mi mathvariant="normal">害</mi><mo>=</mo><mi mathvariant="normal">角</mi><mi mathvariant="normal">色</mi><mi mathvariant="normal">面</mi><mi mathvariant="normal">板</mi><mo>×</mo><mi mathvariant="normal">技</mi><mi mathvariant="normal">能</mi><mi mathvariant="normal">倍</mi><mi mathvariant="normal">率</mi><mo>+</mo><mi mathvariant="normal">附</mi><mi mathvariant="normal">加</mi><mi mathvariant="normal">倍</mi><mi mathvariant="normal">率</mi><mo>×</mo><mi mathvariant="normal">面</mi><mi mathvariant="normal">板</mi></mrow><annotation encoding="application/x-tex">伤害 = 角色面板 \times 技能倍率 + 附加倍率 \times 面板
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mord cjk_fallback">伤</span><span class="mord cjk_fallback">害</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord cjk_fallback">角</span><span class="mord cjk_fallback">色</span><span class="mord cjk_fallback">面</span><span class="mord cjk_fallback">板</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord cjk_fallback">技</span><span class="mord cjk_fallback">能</span><span class="mord cjk_fallback">倍</span><span class="mord cjk_fallback">率</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord cjk_fallback">附</span><span class="mord cjk_fallback">加</span><span class="mord cjk_fallback">倍</span><span class="mord cjk_fallback">率</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0em;vertical-align:0em;"></span><span class="mord cjk_fallback">面</span><span class="mord cjk_fallback">板</span></span></span></span></span></p>
+<p>90级云堇装备新手长枪，未佩戴圣遗物，元素爆发等级为1级，90级宵宫装备猎弓，未佩戴圣遗物，普通攻击及元素战技等级为1级，未暴击，未触发元素反应，未有元素共鸣等的情况下，此时云堇的防御力为：734；元素爆发伤害值提升为：23.16%防御力，宵宫的攻击力为：323，猎弓的攻击力为：185，普通攻击第二段伤害的倍率为：68.4%，炽焰箭伤害为：137.9%普通攻击伤害，其伤害计算公式如下：</p>
+<table>
+<thead>
+<tr>
+<th>$$炽焰箭第二箭伤害 = \left( {\mathop {\left( {\mathop {323}\limits^{宵宫的攻击力} + \mathop {185}\limits^{猎弓的攻击力} } \right) \times 68.4% \times 137.9%}\limits^{宵宫} } \right) + \left( {\mathop {23.16% \times 734}\limits^{云堇} } \right) = 649.158288$$</th>
+</tr>
+</thead>
+</table>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">炽</mi><mi mathvariant="normal">焰</mi><mi mathvariant="normal">箭</mi><mi mathvariant="normal">第</mi><mi mathvariant="normal">二</mi><mi mathvariant="normal">箭</mi><mi mathvariant="normal">伤</mi><mi mathvariant="normal">害</mi><mo>=</mo><mrow><mo fence="true">(</mo><mover><mo><mrow><mo fence="true">(</mo><mrow><mover><mo><mn>323</mn></mo><mrow><mi mathvariant="normal">宵</mi><mi mathvariant="normal">宫</mi><mi mathvariant="normal">的</mi><mi mathvariant="normal">攻</mi><mi mathvariant="normal">击</mi><mi mathvariant="normal">力</mi></mrow></mover><mo>+</mo><mover><mo><mn>185</mn></mo><mrow><mi mathvariant="normal">猎</mi><mi mathvariant="normal">弓</mi><mi mathvariant="normal">的</mi><mi mathvariant="normal">攻</mi><mi mathvariant="normal">击</mi><mi mathvariant="normal">力</mi></mrow></mover></mrow><mo fence="true">)</mo></mrow><mo>×</mo><mn>68.4</mn><mi mathvariant="normal">%</mi><mo>×</mo><mn>137.9</mn><mi mathvariant="normal">%</mi></mo><mrow><mi mathvariant="normal">宵</mi><mi mathvariant="normal">宫</mi></mrow></mover><mo fence="true">)</mo></mrow><mo>+</mo><mrow><mo fence="true">(</mo><mover><mo><mn>23.16</mn><mi mathvariant="normal">%</mi><mo>×</mo><mn>734</mn></mo><mrow><mi mathvariant="normal">云</mi><mi mathvariant="normal">堇</mi></mrow></mover><mo fence="true">)</mo></mrow><mo>=</mo><mn>649.158288</mn></mrow><annotation encoding="application/x-tex">炽焰箭第二箭伤害 = \left( {\mathop {\left( {\mathop {323}\limits^{宵宫的攻击力} + \mathop {185}\limits^{猎弓的攻击力} } \right) \times 68.4\% \times 137.9\%}\limits^{宵宫} } \right) + \left( {\mathop {23.16\% \times 734}\limits^{云堇} } \right) = 649.158288
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mord cjk_fallback">炽</span><span class="mord cjk_fallback">焰</span><span class="mord cjk_fallback">箭</span><span class="mord cjk_fallback">第</span><span class="mord cjk_fallback">二</span><span class="mord cjk_fallback">箭</span><span class="mord cjk_fallback">伤</span><span class="mord cjk_fallback">害</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.40003em;vertical-align:-0.95003em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size3">(</span></span><span class="mord"><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.45em;"><span style="top:-3.15em;"><span class="pstrut" style="height:3.15em;"></span><span><span class="mop"><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size2">(</span></span><span class="mord"><span class="mop op-limits"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9444400000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span><span class="mop"><span class="mord">323</span></span></span></span><span style="top:-3.84444em;margin-left:0em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord cjk_fallback mtight">宵</span><span class="mord cjk_fallback mtight">宫</span><span class="mord cjk_fallback mtight">的</span><span class="mord cjk_fallback mtight">攻</span><span class="mord cjk_fallback mtight">击</span><span class="mord cjk_fallback mtight">力</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">+</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mop op-limits"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9444400000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span><span class="mop"><span class="mord">185</span></span></span></span><span style="top:-3.84444em;margin-left:0em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord cjk_fallback mtight">猎</span><span class="mord cjk_fallback mtight">弓</span><span class="mord cjk_fallback mtight">的</span><span class="mord cjk_fallback mtight">攻</span><span class="mord cjk_fallback mtight">击</span><span class="mord cjk_fallback mtight">力</span></span></span></span></span></span></span></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size2">)</span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord">68.4%</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord">137.9%</span></span></span></span><span style="top:-4.5em;margin-left:0em;"><span class="pstrut" style="height:3.15em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord cjk_fallback mtight">宵</span><span class="mord cjk_fallback mtight">宫</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.65002em;"><span></span></span></span></span></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size3">)</span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1.80002em;vertical-align:-0.65002em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size2">(</span></span><span class="mord"><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.05em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span><span class="mop"><span class="mord">23.16%</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord">734</span></span></span></span><span style="top:-3.95em;margin-left:0em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord cjk_fallback mtight">云</span><span class="mord cjk_fallback mtight">堇</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.08333em;"><span></span></span></span></span></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size2">)</span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">6</span><span class="mord">4</span><span class="mord">9</span><span class="mord">.</span><span class="mord">1</span><span class="mord">5</span><span class="mord">8</span><span class="mord">2</span><span class="mord">8</span><span class="mord">8</span></span></span></span></span></p>
+</li>
+</ul>
+<h2 id="增伤区">增伤区</h2>
+<h2 id="一段总结">一段总结</h2>
+<h2 id="抗性区">抗性区</h2>
+<h2 id="防御区">防御区</h2>
+<h2 id="双暴区">双暴区</h2>
+<h2 id="元素反应区">元素反应区</h2>
+
+                </div>
+            </article>
+        </div>
+
+        
+
+        
+
+        
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">KuRo小黑的个人博客，用于分享个人事物。<br/>
+其中未标注<b>原创</b>标签的文章均来自网络，并已标注来源，如有侵权，请联系删除。</div>
+    <div class="social-container">
+        
+            
+                <a href="https://github.com/bururenji" target="_blank">
+                    <i class="fab fa-github gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    </div>
+    <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://bururenji.github.io//atom.xml" target="_blank">RSS</a></a>
+    </div>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+</div>
+</body>
+</html>

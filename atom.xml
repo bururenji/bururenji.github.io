@@ -1,0 +1,1045 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://bururenji.github.io/</id>
+    <title>KuRo小黑 - 个人博客</title>
+    <updated>2023-04-23T14:27:01.784Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://bururenji.github.io/"/>
+    <link rel="self" href="https://bururenji.github.io/atom.xml"/>
+    <subtitle>KuRo小黑的个人博客，用于分享个人事物。&lt;br/&gt;
+其中未标注&lt;b&gt;原创&lt;/b&gt;标签的文章均来自网络，并已标注来源，如有侵权，请联系删除。</subtitle>
+    <logo>https://bururenji.github.io/images/avatar.png</logo>
+    <icon>https://bururenji.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, KuRo小黑 - 个人博客</rights>
+    <entry>
+        <title type="html"><![CDATA[再见极域]]></title>
+        <id>https://bururenji.github.io/post/zai-jian-ji-yu/</id>
+        <link href="https://bururenji.github.io/post/zai-jian-ji-yu/">
+        </link>
+        <updated>2023-03-22T11:03:21.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>原贴地址：<strong><a href="https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=799791">再见极域(极域电子教室克星) - 『原创发布区』 - 吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn</a></strong></p>
+</blockquote>
+<p>文件下载：https://lieyandefennu.lanzouw.com/iUjQN0qslh7a</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[显示器接口]]></title>
+        <id>https://bururenji.github.io/post/xian-shi-qi-jie-kou/</id>
+        <link href="https://bururenji.github.io/post/xian-shi-qi-jie-kou/">
+        </link>
+        <updated>2023-02-22T13:33:39.000Z</updated>
+        <summary type="html"><![CDATA[<p>专门说明显示器大部分接口的规格。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>专门说明显示器大部分接口的规格。</p>
+<!--  more  -->
+<h1 id="声明">声明</h1>
+<p>本篇文章参考以下视频：</p>
+<ul>
+<li><strong>哔哩哔哩视频：<a href="https://www.bilibili.com/video/BV1SL4y1q7GZ/">显示器视频接口科普：看完就懂HDMI、DP、DVI、VGA、USB-C哪个更适合你的电脑外接显示器</a></strong></li>
+</ul>
+<p>文章内容仅做学习笔记使用。</p>
+<hr>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">接口名称</th>
+<th style="text-align:center">信号类型</th>
+<th style="text-align:center">最高支持分辨率及刷新率</th>
+<th style="text-align:center">是否支持音频传输</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">VGA</td>
+<td style="text-align:center">模拟信号</td>
+<td style="text-align:center">1080P 60Hz<br/>最大2048x1536</td>
+<td style="text-align:center">×</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">DVI-I 单通道</td>
+<td style="text-align:center">模拟信号/数字信号</td>
+<td style="text-align:center">1920x1200 60Hz</td>
+<td style="text-align:center">√</td>
+<td>买的线基本不支持音频传输</td>
+</tr>
+<tr>
+<td style="text-align:center">DVI-I 双通道</td>
+<td style="text-align:center">模拟信号/数字信号</td>
+<td style="text-align:center">1080P 120Hz<br/>2560x1600 60Hz</td>
+<td style="text-align:center">√</td>
+<td>买的线基本不支持音频传输</td>
+</tr>
+<tr>
+<td style="text-align:center">DVI-D 单通道</td>
+<td style="text-align:center">数字信号</td>
+<td style="text-align:center">1920x1200 60Hz</td>
+<td style="text-align:center">√</td>
+<td>买的线基本不支持音频传输</td>
+</tr>
+<tr>
+<td style="text-align:center">DVI-D 双通道</td>
+<td style="text-align:center">数字信号</td>
+<td style="text-align:center">1080P 120Hz<br/>2560x1600 60Hz</td>
+<td style="text-align:center">√</td>
+<td>买的线基本不支持音频传输</td>
+</tr>
+<tr>
+<td style="text-align:center">DVI-A</td>
+<td style="text-align:center">模拟信号</td>
+<td style="text-align:center">1920x1080 60Hz</td>
+<td style="text-align:center">√</td>
+<td>买的线基本不支持音频传输</td>
+</tr>
+<tr>
+<td style="text-align:center">HDMI 1.2</td>
+<td style="text-align:center">数字信号</td>
+<td style="text-align:center">1920x1080 60Hz</td>
+<td style="text-align:center">√</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">HDMI 1.4</td>
+<td style="text-align:center">数字信号</td>
+<td style="text-align:center">1080P 144Hz<br/>2K 74Hz<br/>4K 30Hz</td>
+<td style="text-align:center">√</td>
+<td>最常见</td>
+</tr>
+<tr>
+<td style="text-align:center">HDMI 2.0</td>
+<td style="text-align:center">数字信号</td>
+<td style="text-align:center">1080P 240Hz<br/>2K 144Hz<br/>4K 60Hz</td>
+<td style="text-align:center">√</td>
+<td>最常见</td>
+</tr>
+<tr>
+<td style="text-align:center">HDMI 2.1</td>
+<td style="text-align:center">数字信号</td>
+<td style="text-align:center">1080P 240Hz<br/>2K 240Hz<br/>4K 144Hz<br/>4K 240Hz DSC<br/>8K 30Hz<br/>8K 120Hz DSC</td>
+<td style="text-align:center">√</td>
+<td>买的线最高4K 120Hz或8K 60Hz<br/>新的接口只有新出的设备才具备</td>
+</tr>
+<tr>
+<td style="text-align:center">DP 1.2</td>
+<td style="text-align:center">数字信号</td>
+<td style="text-align:center">1080P 240Hz<br/>2K 165Hz<br/>4K 75Hz</td>
+<td style="text-align:center">√</td>
+<td>能买到的很多线最高2K 144Hz或4K60Hz</td>
+</tr>
+<tr>
+<td style="text-align:center">DP 1.4</td>
+<td style="text-align:center">数字信号</td>
+<td style="text-align:center">2K 240Hz<br/>4K 1441Hz<br/>4K 240Hz DSC<br/>8K 30Hz<br/>8K 120Hz DSC</td>
+<td style="text-align:center">√</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">DP 2.0</td>
+<td style="text-align:center">数字信号</td>
+<td style="text-align:center">2K 240Hz<br/>4K 144Hz<br/>4K 240Hz<br/>10K 60Hz<br/>16K 60Hz DSC</td>
+<td style="text-align:center">√</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>DSC：DSC压缩技术</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[食谱 - 葡式蛋挞]]></title>
+        <id>https://bururenji.github.io/post/shi-pu-pu-shi-dan-ta/</id>
+        <link href="https://bururenji.github.io/post/shi-pu-pu-shi-dan-ta/">
+        </link>
+        <updated>2023-02-04T12:57:40.000Z</updated>
+        <summary type="html"><![CDATA[<p>刷B站的时候偶然间看到了一个视频，第二天越想越馋，决定自己做！但是害怕视频来回翻看太麻烦，就一劳永逸，写下这一篇文章，防止每次想做的时候还得左翻右找收藏，来回拖动进度条。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>刷B站的时候偶然间看到了一个视频，第二天越想越馋，决定自己做！但是害怕视频来回翻看太麻烦，就一劳永逸，写下这一篇文章，防止每次想做的时候还得左翻右找收藏，来回拖动进度条。</p>
+<!--  more  -->
+<h1 id="声明">声明</h1>
+<p>本篇文章参考以下专栏和视频：</p>
+<ul>
+<li><strong>哔哩哔哩视频：<a href="https://www.bilibili.com/video/BV13D4y1c7KZ/">葡式蛋挞这么做，奶香浓郁、酥到掉渣！ - 赖皮猴爱美食</a></strong></li>
+</ul>
+<p>文章内所有材料、步骤均“复制”自声明视频，仅做自我的学习笔记使用。</p>
+<hr>
+<h1 id="制作">制作</h1>
+<h2 id="蛋挞皮">蛋挞皮</h2>
+<h3 id="材料准备">材料准备</h3>
+<ul>
+<li>低筋面粉 260g</li>
+<li>水 130g</li>
+<li>黄油 40g（和面）</li>
+<li>糖分 10g</li>
+<li>盐 4g</li>
+<li>黄油 120g（油酥）</li>
+</ul>
+<h3 id="步骤">步骤</h3>
+<ol>
+<li>
+<p>将<strong>低筋面粉 260g</strong>、<strong>水 130g</strong>、<strong>黄油 40g（和面）</strong>、<strong>糖分 10g</strong>、<strong>盐 4g</strong>加入碗中，揉捏成面团；</p>
+</li>
+<li>
+<p>将上述面团覆上保鲜膜，室温醒面<strong>20分钟</strong>；</p>
+</li>
+<li>
+<p>将**黄油 120g（油酥）**平铺在硅油纸上，叠成长方形，用擀面杖擀平；</p>
+</li>
+<li>
+<p>将上述黄油放入冰箱，冷藏<strong>15分钟</strong>；</p>
+</li>
+<li>
+<p>将醒完面的面团放置在案板上，稍微揉搓即可；</p>
+</li>
+<li>
+<p>用擀面杖将面团擀成长度为黄油长方形宽度的3倍，宽度比黄油长方形长度稍大的长方形；</p>
+</li>
+<li>
+<p>将黄油长方形放置在面团长方形正中间，如下图所示：</p>
+<figure data-type="image" tabindex="1"><img src="https://bururenji.github.io//post-images/1675515523774.png" alt="" loading="lazy"></figure>
+</li>
+<li>
+<p>将上述长方形的三个开口捏紧密封，放置漏酥；</p>
+</li>
+<li>
+<p>在案板上撒上铺面；</p>
+</li>
+<li>
+<p>将该长方形继续擀薄，擀大；</p>
+</li>
+<li>
+<p>将该长方形折叠，两边折向中间后，再进行对折，如下图所示：</p>
+<figure data-type="image" tabindex="2"><img src="https://bururenji.github.io//post-images/1675515544177.png" alt="" loading="lazy"></figure>
+</li>
+<li>
+<p>整理形状；</p>
+</li>
+<li>
+<p>放入冰箱冷藏<strong>10分钟</strong>；</p>
+</li>
+<li>
+<p>取出长方形后，将该长方形继续擀薄，擀大；</p>
+</li>
+<li>
+<p>将该长方形折叠，两边折向中间后，如下图所示：</p>
+<figure data-type="image" tabindex="3"><img src="https://bururenji.github.io//post-images/1675515558104.png" alt="" loading="lazy"></figure>
+</li>
+<li>
+<p>整理形状；</p>
+</li>
+<li>
+<p>放入冰箱冷藏<strong>10分钟</strong>；</p>
+</li>
+<li>
+<p>重复步骤14-步骤17一次；</p>
+</li>
+<li>
+<p>取出长方形后，将长方形继续擀薄，擀大，擀成大正方形；</p>
+</li>
+<li>
+<p>将饼皮下方碾压成一个小斜面；</p>
+</li>
+<li>
+<p>在饼皮上喷洒少许水，增加粘性；</p>
+</li>
+<li>
+<p>从上方至下方卷起，搓圆；</p>
+</li>
+<li>
+<p>将圆筒卷上硅油纸；</p>
+</li>
+<li>
+<p>放入冰箱冷藏<strong>10分钟</strong>；</p>
+</li>
+<li>
+<p>取出圆筒后，从中间切开，再切成小的蛋挞皮胚子，每个胚子在<strong>20g-22g</strong>之间；</p>
+</li>
+<li>
+<p>将胚子放入整齐放入托盘，放入冰箱冷藏<strong>10分钟</strong>；</p>
+</li>
+<li>
+<p>取出胚子后，将胚子放入模具里，在胚子中间按压一个凹陷；</p>
+</li>
+<li>
+<p>用手指从凹陷边缘向外部推拉挤压，使胚子横截面上的纹路挤压聚拢在模具边缘；</p>
+</li>
+<li>
+<p>稍微挤压覆盖模具后，放入冰箱冷藏<strong>5分钟</strong>；</p>
+</li>
+<li>
+<p>重复步骤28，直至胚子高度略高于模具边缘；</p>
+</li>
+<li>
+<p>将蛋挞皮放在托盘上，放入冰箱冷冻<strong>1小时</strong>。</p>
+</li>
+</ol>
+<h2 id="蛋挞液">蛋挞液</h2>
+<h3 id="材料准备-2">材料准备</h3>
+<ul>
+<li>淡奶油 160g</li>
+<li>调理奶油 80g</li>
+<li>鸡蛋黄 2个 25g</li>
+<li>炼乳 80g</li>
+</ul>
+<h3 id="步骤-2">步骤</h3>
+<ol>
+<li>将上述材料混合搅拌均匀；</li>
+<li>将混合物用三十目滤网过筛；</li>
+<li>将混合物用四十目滤网过筛；</li>
+<li>静置<strong>20分钟</strong>。</li>
+</ol>
+<h2 id="蛋挞">蛋挞</h2>
+<h3 id="材料准备-3">材料准备</h3>
+<ul>
+<li>上述蛋挞皮</li>
+<li>上述蛋挞液</li>
+</ul>
+<h3 id="步骤-3">步骤</h3>
+<ol>
+<li>将蛋挞液倒入蛋挞皮内；</li>
+<li>预热烤箱， <strong>200度10分钟</strong>；</li>
+<li>将蛋挞放入烤箱中层，<strong>上下火200度12分钟</strong>；</li>
+<li>时间到后取出烤盘，调转方向；</li>
+<li>放入烤箱中层，<strong>上下火180度16分钟</strong>；</li>
+<li>时间到后取出烤盘，晾凉<strong>3分钟</strong>；</li>
+<li>倒扣蛋挞，使其凉透后饱满不塌陷，倒扣时间最长<strong>8分钟</strong>；</li>
+<li>再翻转蛋挞，自然晾凉。</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[《原神》圣遗物的成长区间]]></title>
+        <id>https://bururenji.github.io/post/lesslessyuan-shen-greatergreater-sheng-yi-wu-de-cheng-chang-qu-jian/</id>
+        <link href="https://bururenji.github.io/post/lesslessyuan-shen-greatergreater-sheng-yi-wu-de-cheng-chang-qu-jian/">
+        </link>
+        <updated>2023-02-01T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>统计《原神》中部分类型圣遗物的成长区间</p>
+<p>最新更新于2023/2/1-21:00</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>统计《原神》中部分类型圣遗物的成长区间</p>
+<p>最新更新于2023/2/1-21:00</p>
+<!--  more  -->
+<h1 id="声明">声明</h1>
+<p>本篇文章参考以下数据：</p>
+<ul>
+<li>哔哩哔哩WIKI：<strong><a href="https://wiki.biligame.com/ys/%E5%9C%A3%E9%81%97%E7%89%A9#%E5%9C%A3%E9%81%97%E7%89%A9%E6%88%90%E9%95%BF">圣遗物 - 原神WIKI_BWIKI_哔哩哔哩 #圣遗物成长</a></strong></li>
+</ul>
+<hr>
+<h1 id="主词条">主词条</h1>
+<p>每种类型的圣遗物的主词条具有范围，如下表所示：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">属性</th>
+<th style="text-align:center">生之花</th>
+<th style="text-align:center">死之羽</th>
+<th style="text-align:center">时之沙</th>
+<th style="text-align:center">空之杯</th>
+<th style="text-align:center">理之冠</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">生命值%</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">√</td>
+<td style="text-align:center">√</td>
+<td style="text-align:center">√</td>
+</tr>
+<tr>
+<td style="text-align:center">生命值</td>
+<td style="text-align:center">√</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">攻击力%</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">√</td>
+<td style="text-align:center">√</td>
+<td style="text-align:center">√</td>
+</tr>
+<tr>
+<td style="text-align:center">攻击力</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">√</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">防御力%</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">√</td>
+<td style="text-align:center">√</td>
+<td style="text-align:center">√</td>
+</tr>
+<tr>
+<td style="text-align:center">暴击率</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">√</td>
+</tr>
+<tr>
+<td style="text-align:center">暴击伤害</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">√</td>
+</tr>
+<tr>
+<td style="text-align:center">元素伤害加成</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">√</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">物理伤害加成</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">√</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">元素充能效率</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">√</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">元素精通</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">√</td>
+<td style="text-align:center">√</td>
+<td style="text-align:center">√</td>
+</tr>
+<tr>
+<td style="text-align:center">治疗加成</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">√</td>
+</tr>
+</tbody>
+</table>
+<p>圣遗物的主属性，基础值、成长情况都是<strong>固定的</strong>，只跟稀有度有关。</p>
+<p>四星圣遗物和五星圣遗物在其圣遗物<strong>满级</strong>的情况下，各个主属性的数值如下表所示：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">属性</th>
+<th style="text-align:center">五星20级</th>
+<th style="text-align:center">四星16级</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">生命值%</td>
+<td style="text-align:center">46.6%</td>
+<td style="text-align:center">34.8%</td>
+</tr>
+<tr>
+<td style="text-align:center">生命值</td>
+<td style="text-align:center">4780</td>
+<td style="text-align:center">3571</td>
+</tr>
+<tr>
+<td style="text-align:center">攻击力%</td>
+<td style="text-align:center">46.6%</td>
+<td style="text-align:center">34.8%</td>
+</tr>
+<tr>
+<td style="text-align:center">攻击力</td>
+<td style="text-align:center">311</td>
+<td style="text-align:center">232</td>
+</tr>
+<tr>
+<td style="text-align:center">防御力%</td>
+<td style="text-align:center">58.3%</td>
+<td style="text-align:center">43.5%</td>
+</tr>
+<tr>
+<td style="text-align:center">暴击率</td>
+<td style="text-align:center">31.1%</td>
+<td style="text-align:center">23.2%</td>
+</tr>
+<tr>
+<td style="text-align:center">暴击伤害</td>
+<td style="text-align:center">62.2%</td>
+<td style="text-align:center">46.4%</td>
+</tr>
+<tr>
+<td style="text-align:center">元素伤害加成</td>
+<td style="text-align:center">46.6%</td>
+<td style="text-align:center">34.8%</td>
+</tr>
+<tr>
+<td style="text-align:center">物理伤害加成</td>
+<td style="text-align:center">58.3%</td>
+<td style="text-align:center">43.5%</td>
+</tr>
+<tr>
+<td style="text-align:center">元素充能效率</td>
+<td style="text-align:center">51.8%</td>
+<td style="text-align:center">38.7%</td>
+</tr>
+<tr>
+<td style="text-align:center">元素精通</td>
+<td style="text-align:center">187</td>
+<td style="text-align:center">139</td>
+</tr>
+<tr>
+<td style="text-align:center">治疗加成</td>
+<td style="text-align:center">35.9%</td>
+<td style="text-align:center">26.8</td>
+</tr>
+</tbody>
+</table>
+<p>另外，BWIKI上说明：</p>
+<ul>
+<li>
+<p>不同稀有度圣遗物的同款主/副词条数值比例如下表所示：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">稀有度</th>
+<th style="text-align:center">五星（金）</th>
+<th style="text-align:center">四星（紫）</th>
+<th style="text-align:center">三星（蓝）</th>
+<th style="text-align:center">二星（绿）</th>
+<th style="text-align:center">一星（白）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">数值比例</td>
+<td style="text-align:center">100%</td>
+<td style="text-align:center">80%</td>
+<td style="text-align:center">48%</td>
+<td style="text-align:center">24%</td>
+<td style="text-align:center">10%</td>
+</tr>
+<tr>
+<td style="text-align:center">等级上限</td>
+<td style="text-align:center">20</td>
+<td style="text-align:center">16</td>
+<td style="text-align:center">12</td>
+<td style="text-align:center">4</td>
+<td style="text-align:center">4</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<p>但是我无法理解其中具体的含义。因为单看这个说法具有以下两种可能性（以<strong>四星和五星同主属性圣遗物</strong>举例）：</p>
+<ol>
+<li>五星及四星均为16级时，四星圣遗物的主属性为五星圣遗物主属性数值的80%；</li>
+<li>五星为20级，四星为16级时，四星圣遗物的主属性为五星圣遗物主属性数值的80%。</li>
+</ol>
+<p>因此，我只将其复制而不进行深入了解。</p>
+<h1 id="副词条">副词条</h1>
+<p>所有类型的圣遗物在升级时，只会从以下几个属性中选择：</p>
+<ul>
+<li>生命值</li>
+<li>生命值%</li>
+<li>攻击力</li>
+<li>攻击力%</li>
+<li>防御力</li>
+<li>防御力%</li>
+<li>暴击率</li>
+<li>暴击伤害</li>
+<li>元素充能效率</li>
+<li>元素精通</li>
+</ul>
+<p>另外，副词条不可能会与主词条重复，举个例子：</p>
+<ul>
+<li>若你获得了一个死之羽，主词条只会是<strong>攻击力</strong>，那么该圣遗物的副词条将永不可能出现<strong>攻击力</strong>，但是<strong>攻击力%是可能的</strong>；</li>
+<li>若你获得了一个<strong>元素充能效率</strong>的时之沙，那么该圣遗物的副词条将永不可能出现<strong>元素充能效率</strong>。</li>
+</ul>
+<p>以五星、四星圣遗物为对象，圣遗物升级时，会发生以下现象：</p>
+<ol>
+<li>从0级开始，<strong>每升4级</strong>将会补全词条个数或增加属性数值；</li>
+<li><strong>优先补全</strong>词条个数，再对已经拥有的属性数值进行增加；</li>
+<li>增加各个词条的程度分为<strong>四个档次</strong>，每次增加均为档次中的值。</li>
+</ol>
+<p>获取圣遗物时可以看做是从无升级到0级，也可以看做是一次升级。因此，词条的初始数值也是符合现象3中的四个档次的。</p>
+<h2 id="五星圣遗物">五星圣遗物</h2>
+<p>五星圣遗物在初始阶段会有3-4个副词条，满级只会有4个副词条。</p>
+<p>五星圣遗物的等级上限为20级，根据现象1，五星圣遗物最多可以进行<strong>5次</strong>补全词条个数或增加属性数值。</p>
+<p>初始少一个词条（3个词条）的圣遗物俗称<strong>瘸腿</strong>圣遗物。因此，根据现象1和现象2，在升至4级时会将词条个数补全为4个词条，俗称<strong>补腿</strong>。由此可见，相比瘸腿的圣遗物，初始为4个词条的圣遗物多了一次增加属性数值的次数，更有可能成为顶级圣遗物。</p>
+<p>现象3说明，在升级圣遗物时，所提升的数值分为四个档次，因为数值具有<strong>四舍五入</strong>等精确度的计数保留法，会存在误差，具体如下表所示：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">属性</th>
+<th style="text-align:center">第1档</th>
+<th style="text-align:center">第2档</th>
+<th style="text-align:center">第3档</th>
+<th style="text-align:center">第4档</th>
+<th style="text-align:center">理论计算第4档精确值</th>
+<th style="text-align:center">极限数值（1+5次）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">生命值</td>
+<td style="text-align:center">209</td>
+<td style="text-align:center">239</td>
+<td style="text-align:center">269</td>
+<td style="text-align:center">299</td>
+<td style="text-align:center">298.75</td>
+<td style="text-align:center">1793</td>
+</tr>
+<tr>
+<td style="text-align:center">生命值%</td>
+<td style="text-align:center">4.1%</td>
+<td style="text-align:center">4.7%</td>
+<td style="text-align:center">5.3%</td>
+<td style="text-align:center">5.8%</td>
+<td style="text-align:center">5.83%</td>
+<td style="text-align:center">35.0%</td>
+</tr>
+<tr>
+<td style="text-align:center">攻击力</td>
+<td style="text-align:center">14</td>
+<td style="text-align:center">16</td>
+<td style="text-align:center">18</td>
+<td style="text-align:center">19</td>
+<td style="text-align:center">19.45</td>
+<td style="text-align:center">117</td>
+</tr>
+<tr>
+<td style="text-align:center">攻击力%</td>
+<td style="text-align:center">4.1%</td>
+<td style="text-align:center">4.7%</td>
+<td style="text-align:center">5.3%</td>
+<td style="text-align:center">5.8%</td>
+<td style="text-align:center">5.83%</td>
+<td style="text-align:center">35.0%</td>
+</tr>
+<tr>
+<td style="text-align:center">防御力</td>
+<td style="text-align:center">16</td>
+<td style="text-align:center">19</td>
+<td style="text-align:center">21</td>
+<td style="text-align:center">23</td>
+<td style="text-align:center">23.15</td>
+<td style="text-align:center">140</td>
+</tr>
+<tr>
+<td style="text-align:center">防御力%</td>
+<td style="text-align:center">5.1%</td>
+<td style="text-align:center">5.8%</td>
+<td style="text-align:center">6.6%</td>
+<td style="text-align:center">7.3%</td>
+<td style="text-align:center">7.29%</td>
+<td style="text-align:center">43.7%</td>
+</tr>
+<tr>
+<td style="text-align:center">暴击率</td>
+<td style="text-align:center">2.7%</td>
+<td style="text-align:center">3.1%</td>
+<td style="text-align:center">3.5%</td>
+<td style="text-align:center">3.9%</td>
+<td style="text-align:center">3.89%</td>
+<td style="text-align:center">23.3%</td>
+</tr>
+<tr>
+<td style="text-align:center">暴击伤害</td>
+<td style="text-align:center">5.4%</td>
+<td style="text-align:center">6.2%</td>
+<td style="text-align:center">7.0%</td>
+<td style="text-align:center">7.8%</td>
+<td style="text-align:center">7.77%</td>
+<td style="text-align:center">46.6%</td>
+</tr>
+<tr>
+<td style="text-align:center">元素充能效率</td>
+<td style="text-align:center">4.5%</td>
+<td style="text-align:center">5.2%</td>
+<td style="text-align:center">5.8%</td>
+<td style="text-align:center">6.5%</td>
+<td style="text-align:center">6.48%</td>
+<td style="text-align:center">38.9%</td>
+</tr>
+<tr>
+<td style="text-align:center">元素精通</td>
+<td style="text-align:center">16</td>
+<td style="text-align:center">19</td>
+<td style="text-align:center">21</td>
+<td style="text-align:center">23</td>
+<td style="text-align:center">23.31</td>
+<td style="text-align:center">140</td>
+</tr>
+</tbody>
+</table>
+<p>由此可见，若存在<strong>非瘸腿</strong>圣遗物初始具有某一属性，且5次升级机会全进入该属性，则总共存在4096种升级可能性。</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mn>4</mn><mn>6</mn></msup><mo>=</mo><mn>4096</mn></mrow><annotation encoding="application/x-tex">{4^6} = {\rm{4096}}
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8641079999999999em;vertical-align:0em;"></span><span class="mord"><span class="mord"><span class="mord">4</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord"><span class="mord"><span class="mord"><span class="mord mathrm">4</span><span class="mord mathrm">0</span><span class="mord mathrm">9</span><span class="mord mathrm">6</span></span></span></span></span></span></span></span></p>
+<p>若不存在<strong>四舍五入</strong>等精确度的计数保留法，则每一个属性具有如下可能性（此表格由算法算出，具体算法在<strong>附录1 - 五星圣遗物单属性强化可能性</strong>）：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">属性</th>
+<th style="text-align:center">数值可能</th>
+<th style="text-align:center">可能性个数</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">生命值</td>
+<td style="text-align:center">1254，1284，1314，1344，1374，1404，1434，1464，1494，1524，<br/>1554，1584，1614，1644，1674，1704，1734，1764，1794</td>
+<td style="text-align:center">19</td>
+</tr>
+<tr>
+<td style="text-align:center">生命值%</td>
+<td style="text-align:center">24.6，25.2，25.8，26.3，26.4，26.9，27.0，27.5，27.6，28.0，<br/>28.1，28.2，28.6，28.7，28.8，29.2，29.3，29.4，29.7，29.8，<br/>29.9，30.0，30.3，30.4，30.5，30.6，30.9，31.0，31.1，31.2，<br/>31.4，31.5，31.6，31.7，31.8，32.0，32.1，32.2，32.3，32.6，<br/>32.7，32.8，33.1，33.2，33.3，33.7，33.8，34.3，34.8</td>
+<td style="text-align:center">49</td>
+</tr>
+<tr>
+<td style="text-align:center">攻击力</td>
+<td style="text-align:center">84，86，88，89，90，91，92，93，94，95，<br/>96，97，98，99，100，101，102，103，104，105，<br/>106，107，108，109，110，111，112，113，114</td>
+<td style="text-align:center">29</td>
+</tr>
+<tr>
+<td style="text-align:center">攻击力%</td>
+<td style="text-align:center">24.6，25.2，25.8，26.3，26.4，26.9，27.0，27.5，27.6，28.0，<br/>28.1，28.2，28.6，28.7，28.8，29.2，29.3，29.4，29.7，29.8，<br/>29.9，30.0，30.3，30.4，30.5，30.6，30.9，31.0，31.1，31.2，<br/>31.4，31.5，31.6，31.7，31.8，32.0，32.1，32.2，32.3，32.6，<br/>32.7，32.8，33.1，33.2，33.3，33.7，33.8，34.3，34.8</td>
+<td style="text-align:center">49</td>
+</tr>
+<tr>
+<td style="text-align:center">防御力</td>
+<td style="text-align:center">96，99，101，102，103，104，105，106，107，108，<br/>109，110，111，112，113，114，115，116，117，118，<br/>119，120，121，122，123，124，125，126，127，128，<br/>129，130，131，132，134，136，138</td>
+<td style="text-align:center">37</td>
+</tr>
+<tr>
+<td style="text-align:center">防御力%</td>
+<td style="text-align:center">30.6，31.3，32.0，32.1，32.7，32.8，33.4，33.5，33.6，34.1，<br/>34.2，34.3，34.8，34.9，35.0，35.1，35.6，35.7，35.8，36.3，<br/>36.4，36.5，36.6，37.1，37.2，37.3，37.8，37.9，38.0，38.1，<br/>38.6，38.7，38.8，39.3，39.4，39.5，39.6，40.1，40.2，40.3，<br/>40.8，40.9，41.0，41.6，41.7，42.3，42.4，43.1，43.8</td>
+<td style="text-align:center">49</td>
+</tr>
+<tr>
+<td style="text-align:center">暴击率</td>
+<td style="text-align:center">16.2，16.6，17.0，17.4，17.8，18.2，18.6，19.0，19.4，19.8，<br/>20.2，20.6，21.0，21.4，21.8，22.2，22.6，23.0，23.4</td>
+<td style="text-align:center">19</td>
+</tr>
+<tr>
+<td style="text-align:center">暴击伤害</td>
+<td style="text-align:center">32.4，33.2，34.0，34.8，35.6，36.4，37.2，38.0，38.8，39.6，<br/>40.4，41.2，42.0，42.8，43.6，44.4，45.2，46.0，46.8</td>
+<td style="text-align:center">19</td>
+</tr>
+<tr>
+<td style="text-align:center">元素充能效率</td>
+<td style="text-align:center">27.0，27.7，28.3，28.4，29.0，29.1，29.6，29.7，29.8，30.3，<br/>30.4，30.5，30.9，31.0，31.1，31.2，31.6，31.7，31.8，32.2，<br/>32.3，32.4，32.5，32.9，33.0，33.1，33.5，33.6，33.7，33.8，<br/>34.2，34.3，34.4，34.8，34.9，35.0，35.1，35.5，35.6，35.7，<br/>36.2，36.3，36.4，36.9，37.0，37.6，37.7，38.3，39.0</td>
+<td style="text-align:center">49</td>
+</tr>
+<tr>
+<td style="text-align:center">元素精通</td>
+<td style="text-align:center">96，99，101，102，103，104，105，106，107，108，<br/>109，110，111，112，113，114，115，116，117，118，<br/>119，120，121，122，123，124，125，126，127，128，<br/>129，130，131，132，134，136，138</td>
+<td style="text-align:center">37</td>
+</tr>
+</tbody>
+</table>
+<h2 id="四星圣遗物">四星圣遗物</h2>
+<p>大致同五星圣遗物一样。</p>
+<p>在初始阶段会有2-3个副词条，满级只会有3个副词条。</p>
+<p>等级上限为16级，因此最多可强化<strong>4次</strong>。</p>
+<p>强化数值也分为四个档次，因为数值具有<strong>四舍五入</strong>等精确度的计数保留法，会存在误差，具体如下表所示：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">属性</th>
+<th style="text-align:center">第1档</th>
+<th style="text-align:center">第2档</th>
+<th style="text-align:center">第3档</th>
+<th style="text-align:center">第4档</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">生命值</td>
+<td style="text-align:center">167</td>
+<td style="text-align:center">191</td>
+<td style="text-align:center">215</td>
+<td style="text-align:center">239</td>
+</tr>
+<tr>
+<td style="text-align:center">生命值%</td>
+<td style="text-align:center">3.3%</td>
+<td style="text-align:center">3.7%</td>
+<td style="text-align:center">4.2%</td>
+<td style="text-align:center">4.7%</td>
+</tr>
+<tr>
+<td style="text-align:center">攻击力</td>
+<td style="text-align:center">11</td>
+<td style="text-align:center">12</td>
+<td style="text-align:center">14</td>
+<td style="text-align:center">16</td>
+</tr>
+<tr>
+<td style="text-align:center">攻击力%</td>
+<td style="text-align:center">3.3%</td>
+<td style="text-align:center">3.7%</td>
+<td style="text-align:center">4.2%</td>
+<td style="text-align:center">4.7%</td>
+</tr>
+<tr>
+<td style="text-align:center">防御力</td>
+<td style="text-align:center">13</td>
+<td style="text-align:center">15</td>
+<td style="text-align:center">17</td>
+<td style="text-align:center">19</td>
+</tr>
+<tr>
+<td style="text-align:center">防御力%</td>
+<td style="text-align:center">4.1%</td>
+<td style="text-align:center">4.7%</td>
+<td style="text-align:center">5.3%</td>
+<td style="text-align:center">5.8%</td>
+</tr>
+<tr>
+<td style="text-align:center">暴击率</td>
+<td style="text-align:center">2.2%</td>
+<td style="text-align:center">2.5%</td>
+<td style="text-align:center">2.8%</td>
+<td style="text-align:center">3.1%</td>
+</tr>
+<tr>
+<td style="text-align:center">暴击伤害</td>
+<td style="text-align:center">4.4%</td>
+<td style="text-align:center">5.0%</td>
+<td style="text-align:center">5.6%</td>
+<td style="text-align:center">6.2%</td>
+</tr>
+<tr>
+<td style="text-align:center">元素充能效率</td>
+<td style="text-align:center">3.6%</td>
+<td style="text-align:center">4.1%</td>
+<td style="text-align:center">4.7%</td>
+<td style="text-align:center">5.2%</td>
+</tr>
+<tr>
+<td style="text-align:center">元素精通</td>
+<td style="text-align:center">13</td>
+<td style="text-align:center">15</td>
+<td style="text-align:center">17</td>
+<td style="text-align:center">19</td>
+</tr>
+</tbody>
+</table>
+<p>由此可见，若存在<strong>非瘸腿</strong>圣遗物初始具有某一属性，且4次升级机会全进入该属性，则总共存在1024种升级可能性。</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mn>4</mn><mn>5</mn></msup><mo>=</mo><mn>1024</mn></mrow><annotation encoding="application/x-tex">{4^5} = {\rm{1024}}
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8641079999999999em;vertical-align:0em;"></span><span class="mord"><span class="mord"><span class="mord">4</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">5</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord"><span class="mord"><span class="mord"><span class="mord mathrm">1</span><span class="mord mathrm">0</span><span class="mord mathrm">2</span><span class="mord mathrm">4</span></span></span></span></span></span></span></span></p>
+<p>若不存在<strong>四舍五入</strong>等精确度的计数保留法，则每一个属性具有如下可能性（此表格由算法算出，具体算法在<strong>附录2 - 四星圣遗物单属性强化可能性</strong>）：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">属性</th>
+<th style="text-align:center">数值可能</th>
+<th style="text-align:center">可能性个数</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">生命值</td>
+<td style="text-align:center">835，859，883，907，931，955，979，1003，1027，1051，<br/>1075，1099，1123，1147，1171，1195</td>
+<td style="text-align:center">16</td>
+</tr>
+<tr>
+<td style="text-align:center">生命值%</td>
+<td style="text-align:center">16.5，16.9，17.3，17.4，17.7，17.8，17.9，18.1，18.2，18.3，<br/>18.5，18.6，18.7，18.8，19.0，19.1，19.2，19.3，19.5，19.6，<br/>19.7，20.0，20.1，20.2，20.5，20.6，20.7，21.0，21.1，21.5，<br/>21.6，22.0，22.1，22.5，23.0，23.5</td>
+<td style="text-align:center">36</td>
+</tr>
+<tr>
+<td style="text-align:center">攻击力</td>
+<td style="text-align:center">55，56，57，58，59，60，61，62，63，64，<br/>65，66，67，68，69，70，71，72，73，74，<br/>75，76，78，80</td>
+<td style="text-align:center">24</td>
+</tr>
+<tr>
+<td style="text-align:center">攻击力%</td>
+<td style="text-align:center">16.5，16.9，17.3，17.4，17.7，17.8，17.9，18.1，18.2，18.3，<br/>18.5，18.6，18.7，18.8，19.0，19.1，19.2，19.3，19.5，19.6，<br/>19.7，20.0，20.1，20.2，20.5，20.6，20.7，21.0，21.1，21.5，<br/>21.6，22.0，22.1，22.5，23.0，23.5</td>
+<td style="text-align:center">36</td>
+</tr>
+<tr>
+<td style="text-align:center">防御力</td>
+<td style="text-align:center">65，67，69，71，73，75，77，79，81，83，<br/>85，87，89，91，93，95</td>
+<td style="text-align:center">16</td>
+</tr>
+<tr>
+<td style="text-align:center">防御力%</td>
+<td style="text-align:center">20.5，21.1，21.7，22.2，22.3，22.8，22.9，23.4，23.5，23.9，<br/>24.0，24.1，24.5，24.6，24.7，25.1，25.2，25.3，25.6，25.7，<br/>25.8，25.9，26.2，26.3，26.4，26.5，26.8，26.9，27.0，27.3，<br/>27.4，27.5，27.9，28.0，28.5，29.0</td>
+<td style="text-align:center">36</td>
+</tr>
+<tr>
+<td style="text-align:center">暴击率</td>
+<td style="text-align:center">11.0，11.3，11.6，11.9，12.2，12.5，12.8，13.1，13.4，13.7，<br/>14.0，14.3，14.6，14.9，15.2，15.5</td>
+<td style="text-align:center">16</td>
+</tr>
+<tr>
+<td style="text-align:center">暴击伤害</td>
+<td style="text-align:center">22.0，22.6，23.2，23.8，24.4，25.0，25.6，26.2，26.8，27.4，<br/>28.0，28.6，29.2，29.8，30.4，31.0</td>
+<td style="text-align:center">16</td>
+</tr>
+<tr>
+<td style="text-align:center">元素充能效率</td>
+<td style="text-align:center">18.0，18.5，19.0，19.1，19.5，19.6，20.0，20.1，20.2，20.5，<br/>20.6，20.7，21.1，21.2，21.3，21.6，21.7，21.8，22.2，22.3，<br/>22.4，22.7，22.8，22.9，23.3，23.4，23.5，23.8，23.9，24.0，<br/>24.4，24.5，24.9，25.0，25.5，26.0</td>
+<td style="text-align:center">36</td>
+</tr>
+<tr>
+<td style="text-align:center">元素精通</td>
+<td style="text-align:center">65，67，69，71，73，75，77，79，81，83，<br/>85，87，89，91，93，95</td>
+<td style="text-align:center">16</td>
+</tr>
+</tbody>
+</table>
+<h1 id="附录">附录</h1>
+<p>从现在开始均为附录，一些在正文内不方便写出的内容均放在附录。</p>
+<h2 id="附录1-五星圣遗物单属性强化可能性">附录1 - 五星圣遗物单属性强化可能性</h2>
+<pre><code class="language-python"># 导入模块 decimal 中的 Decimal 类
+from decimal import Decimal as decimal
+
+# 储存各个属性的四个档位的数值
+shengmingzhi = [&quot;209&quot;, &quot;239&quot;, &quot;269&quot;, &quot;299&quot;]
+shengmingzhib = [&quot;4.1&quot;, &quot;4.7&quot;, &quot;5.3&quot;, &quot;5.8&quot;]
+gongjili = [&quot;14&quot;, &quot;16&quot;, &quot;18&quot;, &quot;19&quot;]
+gongjilib = [&quot;4.1&quot;, &quot;4.7&quot;, &quot;5.3&quot;, &quot;5.8&quot;]
+fangyuli = [&quot;16&quot;, &quot;19&quot;, &quot;21&quot;, &quot;23&quot;]
+fangyulib = [&quot;5.1&quot;, &quot;5.8&quot;, &quot;6.6&quot;, &quot;7.3&quot;]
+baojilv = [&quot;2.7&quot;, &quot;3.1&quot;, &quot;3.5&quot;, &quot;3.9&quot;]
+baojishanghai = [&quot;5.4&quot;, &quot;6.2&quot;, &quot;7.0&quot;, &quot;7.8&quot;]
+yuansuchongnengxiaolv = [&quot;4.5&quot;, &quot;5.2&quot;, &quot;5.8&quot;, &quot;6.5&quot;]
+yuansujingtong = [&quot;16&quot;, &quot;19&quot;, &quot;21&quot;, &quot;23&quot;]
+
+# content 列表输入四个档位的具体数值
+content = 
+
+# output 用于输出
+output = []
+
+# 多重循环进行可能性输出
+for a in range(0, 4):
+    for b in range(0, 4):
+        for c in range(0, 4):
+            for d in range(0, 4):
+                for e in range(0, 4):
+                    for f in range(0, 4):
+                        s = float(decimal(content[a]) + decimal(content[b]) + decimal(content[c]) + decimal(content[d]) + decimal(content[e]) + decimal(content[f]))
+                        # 判断是否存在相同的结果
+                        t = True
+                        for i in output:
+                            if i == s:
+                                t = False
+                        if t:
+                            output.append(s)
+
+# 选择排序进行排序
+for i in range(0, len(output) - 1):
+    for j in range(i + 1, len(output)):
+        if output[i] &gt; output[j]:
+            output[i], output[j] = output[j], output[i]
+
+# 输出
+print(output)
+print(len(output))
+
+</code></pre>
+<h2 id="附录2-四星圣遗物单属性强化可能性">附录2 - 四星圣遗物单属性强化可能性</h2>
+<pre><code class="language-python"># 导入模块 decimal 中的 Decimal 类
+from decimal import Decimal as decimal
+
+# 储存各个属性的四个档位的数值
+shengmingzhi = [&quot;167&quot;, &quot;191&quot;, &quot;215&quot;, &quot;239&quot;]
+shengmingzhib = [&quot;3.3&quot;, &quot;3.7&quot;, &quot;4.2&quot;, &quot;4.7&quot;]
+gongjili = [&quot;11&quot;, &quot;12&quot;, &quot;14&quot;, &quot;16&quot;]
+gongjilib = [&quot;3.3&quot;, &quot;3.7&quot;, &quot;4.2&quot;, &quot;4.7&quot;]
+fangyuli = [&quot;13&quot;, &quot;15&quot;, &quot;17&quot;, &quot;19&quot;]
+fangyulib = [&quot;4.1&quot;, &quot;4.7&quot;, &quot;5.3&quot;, &quot;5.8&quot;]
+baojilv = [&quot;2.2&quot;, &quot;2.5&quot;, &quot;2.8&quot;, &quot;3.1&quot;]
+baojishanghai = [&quot;4.4&quot;, &quot;5.0&quot;, &quot;5.6&quot;, &quot;6.2&quot;]
+yuansuchongnengxiaolv = [&quot;3.6&quot;, &quot;4.1&quot;, &quot;4.7&quot;, &quot;5.2&quot;]
+yuansujingtong = [&quot;13&quot;, &quot;15&quot;, &quot;17&quot;, &quot;19&quot;]
+
+# content 列表输入四个档位的具体数值
+content = 
+
+# output 用于输出
+output = []
+
+# 多重循环进行可能性输出
+for a in range(0, 4):
+    for b in range(0, 4):
+        for c in range(0, 4):
+            for d in range(0, 4):
+                for e in range(0, 4):
+                    s = float(decimal(content[a]) + decimal(content[b]) + decimal(content[c]) + decimal(content[d]) + decimal(content[e]))
+                    # 判断是否存在相同的结果
+                    t = True
+                    for i in output:
+                        if i == s:
+                            t = False
+                    if t:
+                        output.append(s)
+
+# 选择排序进行排序
+for i in range(0, len(output) - 1):
+    for j in range(i + 1, len(output)):
+        if output[i] &gt; output[j]:
+            output[i], output[j] = output[j], output[i]
+
+# 输出
+print(output)
+print(len(output))
+
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <id>https://bururenji.github.io/post/hello-gridea/</id>
+        <link href="https://bururenji.github.io/post/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+<!-- more -->
+<p><a href="https://github.com/getgridea/gridea">Github</a><br>
+<a href="https://gridea.dev/">Gridea 主页</a><br>
+<a href="https://fehey.com/">示例网站</a></p>
+<h2 id="特性">特性👇</h2>
+<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
+<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
+<p>🏷️  你可以对文章进行标签分组</p>
+<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
+<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
+<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
+<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
+<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
+<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
+<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
+<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
+<p>未来，它一定会成为你离不开的伙伴</p>
+<p>尽情发挥你的才华吧！</p>
+<p>😘 Enjoy~</p>
+]]></content>
+    </entry>
+</feed>
